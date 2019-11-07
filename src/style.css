@@ -1,0 +1,23 @@
+#allInOne > div {
+    margin: 2px;
+}
+
+.amazon {
+    background-image: url('images/sample.png');
+    width: 78px;
+    height: 30px;
+}
+
+.google {
+    background-image: url('images/sample.png');
+    background-position-x: 78px;
+    width: 78px;
+    height: 30px;
+}
+
+.microsoft {
+    background-image: url('images/sample.png');
+    background-position-x: 156px;
+    width: 78px;
+    height: 30px;
+}
