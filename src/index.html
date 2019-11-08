@@ -7,16 +7,68 @@
         <title>CSS Sprites Demo</title>
 
         <link rel="stylesheet" href="style.css">
+
+        <script>
+            function loadSprite() {
+                document.getElementById("allInOne").style.display = "block";
+            }
+
+            function loadSeparateImages() {
+                document.getElementById("separateImages").style.display = "block";
+            }            
+        </script>
     </head>
     <body>
         <div id="main">
-            <div id="allInOne">
-                <div class="amazon"></div>
-                <div class="google"></div>
-                <div class="microsoft"></div>
+            <div id="buttons">
+                <button onclick="loadSprite();">Load Sprite</button>
+                <button onclick="loadSeparateImages();">Load Separate Images</button>
             </div>
-            <div id="separateDiv">
-                
+            <div id="allInOne">
+                <span>Images loaded from sprite</span>
+
+                <div class="fb"></div>
+                <div class="twitter"></div>
+                <div class="google"></div>
+                <div class="linkedin"></div>
+                <div class="amazon"></div>
+                <div class="yahoo"></div>
+                <div class="microsoft"></div>
+                <div class="instagram"></div>
+                <div class="odno"></div>
+                <div class="foursquare"></div>
+                <div class="renren"></div>
+                <div class="tencent"></div>
+                <div class="weibo"></div>
+                <div class="kontakte"></div>
+                <div class="aol"></div>
+                <div class="wordpress"></div>
+                <div class="blogger"></div>
+                <div class="wechat"></div>
+                <div class="line"></div>
+            </div>
+            <div id="separateImages">
+                <span>Images loaded from individual files</span>
+
+                <div class="fb"></div>
+                <div class="twitter"></div>
+                <div class="google"></div>
+                <div class="linkedin"></div>
+                <div class="amazon"></div>
+                <div class="yahoo"></div>
+                <div class="microsoft"></div>
+                <div class="instagram"></div>
+                <div class="odno"></div>
+                <div class="foursquare"></div>
+                <div class="renren"></div>
+                <div class="tencent"></div>
+                <div class="weibo"></div>
+                <div class="kontakte"></div>
+                <div class="aol"></div>
+                <div class="wordpress"></div>
+                <div class="blogger"></div>
+                <div class="wechat"></div>
+                <div class="line"></div>
             </div>
         </div>
     </body>
